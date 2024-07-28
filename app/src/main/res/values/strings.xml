@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">y</string>
+    <string name="nama">Nama...</string>
+    <string name="sekolah">Sekolah...</string>
+    <string name="hobi">Hobi...</string>
+    <string name="img">img</string>
+    <string name="save">Save</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="sek">Sekolah</string>
+    <string name="nm">Nama</string>
+    <string name="ho">Hobi</string>
+</resources>
