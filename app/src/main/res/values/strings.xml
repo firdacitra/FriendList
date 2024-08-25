@@ -1,8 +1,8 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">y</string>
-    <string name="nama">Nama...</string>
-    <string name="sekolah">Sekolah...</string>
-    <string name="hobi">Hobi...</string>
+    <string name="nama" tools:ignore="TypographyEllipsis">Nama...</string>
+    <string name="sekolah" tools:ignore="TypographyEllipsis">Sekolah...</string>
+    <string name="hobi" tools:ignore="TypographyEllipsis">Hobi...</string>
     <string name="img">img</string>
     <string name="save">Save</string>
     <string name="update">Update</string>

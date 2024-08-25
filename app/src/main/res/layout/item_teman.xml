@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="@dimen/_20sdp"
@@ -40,12 +41,12 @@
             android:id="@+id/update_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:drawableEnd="@drawable/baseline_auto_mode_24"
+            android:layout_margin="@dimen/_10sdp"
             android:layout_toStartOf="@id/delete_button"
+            android:drawableEnd="@drawable/baseline_auto_mode_24"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:layout_margin="@dimen/_10sdp"
-            />
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <Button
             android:id="@+id/delete_button"
@@ -57,7 +58,8 @@
             android:drawableEnd="@drawable/baseline_auto_delete_24"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/update_button" />
+            app:layout_constraintTop_toBottomOf="@+id/update_button"
+            tools:ignore="SpeakableTextPresentCheck" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

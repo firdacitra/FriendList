@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.afivadnan.y"
+    namespace = "com.firda.tugas12"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.afivadnan.y"
+        applicationId = "com.firda.tugas12"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
