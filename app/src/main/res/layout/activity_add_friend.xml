@@ -3,11 +3,16 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
     <LinearLayout
         android:id="@+id/main"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp">
 
         <Button
             android:id="@+id/btn_sv"
@@ -17,6 +22,16 @@
             android:layout_margin="@dimen/_10sdp"
             android:text="@string/save"
             />
+
+        <ImageView
+            android:id="@+id/addImg"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:contentDescription="@string/img"
+            android:src="@drawable/profile" />
 
         <EditText
             android:id="@+id/ad_nama"
@@ -72,4 +87,5 @@
 
 
     </LinearLayout>
+    </ScrollView>
 </layout>
